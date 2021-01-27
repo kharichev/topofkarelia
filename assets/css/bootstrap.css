@@ -5423,14 +5423,14 @@ button.close {
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 70%;
   overflow: hidden;
 }
 .carousel-inner > .item {
   position: relative;
   display: none;
-  -webkit-transition: .6s ease-in-out left;
-          transition: .6s ease-in-out left;
+  -webkit-transition: .4s ease-in-out left;
+          transition: .4s ease-in-out left;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -5475,34 +5475,34 @@ button.close {
   bottom: 0;
   left: 0;
   width: 15%;
-  font-size: 20px;
-  color: #fff;
+  font-size: 30px;
+  color: #323232;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  text-shadow: 2 3px 5px rgba(0, 0, 0, .6);
   filter: alpha(opacity=50);
-  opacity: .5;
+  opacity: .2;
 }
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .01) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x;
 }
 .carousel-control.right {
   right: 0;
   left: auto;
-  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
-  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .01) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
   background-repeat: repeat-x;
 }
 .carousel-control:hover,
 .carousel-control:focus {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   filter: alpha(opacity=90);
   outline: none;
-  opacity: .9;
+  opacity: .7;
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
